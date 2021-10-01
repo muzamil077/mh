@@ -1,0 +1,57 @@
+*{
+    padding: 5px 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header .container{
+    background-image: url(images/mag8.jpg);
+    /* height: 500px; */
+    overflow: hidden;
+}
+.header .container{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.form{
+    background-color: rgb(221, 189, 4);
+    border-radius:5px;
+    padding-left: 10px;
+    padding-right: 8px;
+
+}
+input{
+    width: 180px;
+    height: 20px;
+}
+.heading h2{
+    font-size:xx-large;
+    font-family: sans-serif;
+   
+}
+.heading h4{
+    font-size:large;
+    font-family: sans-serif;
+    /* color: white; */
+}
+.btn{
+    width: 100px;
+    background-color: black;
+    color: white;
+   
+}
+.heading>h3{
+    font-size:large;
+    font-family: sans-serif;
+    /* color: white; */
+}
+.order.form h2 {
+    font-family: system-ui;
+    font-size: small;
+    margin-right: 20px;
+
+}
+.order.form p{
+    font-family: system-ui;
+    font-size: small;
+}
